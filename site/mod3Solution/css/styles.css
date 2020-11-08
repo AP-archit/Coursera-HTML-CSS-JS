@@ -1,0 +1,117 @@
+#body {
+    font-size: 16px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+#header-nav{
+    background-color: #C94407;
+    height: 100px;
+    border-radius: 0;
+    border: 0;
+}
+
+#header-nav h1{
+    font-size: 1.5em;
+}
+
+.navbar-header a {
+    color:#ffffff;
+}
+
+.navbar-header a:hover, .navbar-header a:focus{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#collapsable-nav {
+    width: 100%;
+    background-color:#C94407;
+}
+
+#nav-list li a {
+    color: #aaaaaa;
+}
+
+#nav-list li a:hover, #nav-list li a:focus{
+    color: #ffffff;
+} 
+
+.dish {
+    margin-top: 50px;
+    font-size: 1.1em;
+    background-color: #f04d1b;
+    padding: 10px 25px 10px 25px;
+    border-radius: 25px;
+    color: #000000;   
+}
+
+.dish .dish_name {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-bottom: 1px solid #ffffff;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+    #header-nav>.container>.navbar-header {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #header-nav>.container {
+        padding: 0px;
+    }
+
+    #collapsable-nav {
+        margin-right: 0px;
+        margin-left: 0px;
+        overflow: hidden;
+    }
+
+    #collapsable-nav>ul>li>a {
+        font-size: 1.2em;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        margin: 5px;
+    }
+
+    .navbar-brand h1 {
+        margin-left: 25px;
+    }
+
+    .container button{
+        margin-right: 35px;
+    }
+
+    .dish {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 479px) {
+    #header-nav>.container>.navbar-header {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #header-nav>.container {
+        padding: 0px;
+    }
+    
+    #collapsable-nav {
+        margin-right: 0px;
+        margin-left: 0px;
+        overflow: hidden;
+    }
+}
